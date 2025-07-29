@@ -11,7 +11,8 @@
                 </div>
 
                 <div class="col-12 col-lg-3 text-center order-md-2">
-                    <DotLottieVue style="height: 500px; width: 500px" autoplay loop src="/Animation - 1750150534672.lottie" />
+                    <DotLottieVue class="lottie-animation w-100" autoplay loop
+                        src="/Animation - 1750150534672.lottie" />
                 </div>
             </div>
         </div>

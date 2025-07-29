@@ -318,3 +318,20 @@ a#base:hover {
 iframe {
   border: 0;
 }
+
+.lottie-animation {
+  max-width: 400px;
+  height: auto;
+  box-sizing: border-box;
+  padding-left: 0.75rem;  /* smaller horizontal padding on mobile */
+  padding-right: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .lottie-animation {
+    padding-left: 0; /* remove padding on desktop */
+    padding-right: 0;
+    height: 60vh;
+    width: 60vh;
+  }
+}
