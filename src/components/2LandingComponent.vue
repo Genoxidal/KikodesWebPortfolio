@@ -10,9 +10,8 @@
                     <a href="#contact" id="base" class="mt-4 d-inline-block text-decoration-none">LET'S TALK</a>
                 </div>
 
-                <div class="col-12 col-lg-3 text-center order-md-2">
-                    <DotLottieVue class="lottie-animation w-100" autoplay loop
-                        src="/Animation - 1750150534672.lottie" />
+                <div class="col-12 col-lg-3 text-center order-md-2 d-none d-lg-block">
+                    <DotLottieVue style="height: 500px; width: 500px" autoplay loop src="/Animation - 1750150534672.lottie" />
                 </div>
             </div>
         </div>
