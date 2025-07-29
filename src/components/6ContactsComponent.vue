@@ -37,14 +37,14 @@
                         <div class="d-flex justify-content-between align-items-center mt-4">
                             <div class="d-flex">
                                 <a href="https://www.facebook.com/ryanoxales/" target="_blank" class="social-btn me-2">
-                                    <img src="../../public/images/facebook.svg" alt="Facebook" width="24" height="24">
+                                    <img :src="facebook" alt="Facebook" width="24" height="24">
                                 </a>
                                 <a href="https://www.linkedin.com/in/ryan-oxales-3060932a6/" target="_blank"
                                     class="social-btn me-2">
-                                    <img src="../../public/images/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                                    <img :src="linkedin" alt="LinkedIn" width="24" height="24">
                                 </a>
                                 <a href="https://github.com/Genoxidal" target="_blank" class="social-btn">
-                                    <img src="../../public/images/github.svg" alt="GitHub" width="24" height="24">
+                                    <img :src="github" alt="GitHub" width="24" height="24">
                                 </a>
                             </div>
 
@@ -63,6 +63,10 @@
 </template>
 
 <script setup>
+
+import facebook from '@/assets/images/facebook.svg';
+import linkedin from '@/assets/images/linkedin.svg';
+import github from '@/assets/images/github.svg';
 
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { Notyf } from 'notyf';
