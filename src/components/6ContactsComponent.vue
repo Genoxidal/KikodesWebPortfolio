@@ -141,7 +141,7 @@ const submitForm = async () => {
  * 
  */
 
-const SITE_KEY = '6LcA2JIrAAAAAIHjU0ofUlrELFvfynzrN8iNDkdU';  // Replace with your site key
+const SITE_KEY = '6Ldv2JIrAAAAAJMaQbUQKzjV5ir4bZrCebAeX3S7';  // Replace with your site key
 
 const recaptchaContainer = ref(null);
 const recaptchaWidgetId = ref(null);
