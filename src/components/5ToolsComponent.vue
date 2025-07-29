@@ -20,33 +20,36 @@ import vscode from '@/assets/images/vscode.png';
     <div class="container my-3">
       <h2 class="display-4 fw-bold mb-5">Tools</h2>
       <div class="row justify-content-center g-4">
+        <!-- Front End -->
         <div class="col-12 col-md-4">
           <h3 class="mb-4 text-primary">Front End</h3>
-          <div class="tool-icons row justify-content-center align-items-center g-4">
-            <div class="col-6"><img :src="html5" alt="HTML5" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="css" alt="CSS3" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="bootstrap" alt="Bootstrap" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="js" alt="JavaScript" class="tool-icon img-fluid"></div>
+          <div class="row g-4">
+            <div class="col-6"><img :src="html5" alt="HTML5" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="css" alt="CSS3" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="bootstrap" alt="Bootstrap" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="js" alt="JavaScript" class="img-fluid tool-icon" /></div>
           </div>
         </div>
 
+        <!-- MERN -->
         <div class="col-12 col-md-4">
           <h3 class="mb-4 text-success">MERN</h3>
-          <div class="tool-icons row justify-content-center align-items-center g-4">
-            <div class="col-6"><img :src="mongodb" alt="MongoDB" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="express" alt="Express.js" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="react" alt="React" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="node" alt="Node.js" class="tool-icon img-fluid"></div>
+          <div class="row g-4">
+            <div class="col-6"><img :src="mongodb" alt="MongoDB" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="express" alt="Express.js" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="react" alt="React" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="node" alt="Node.js" class="img-fluid tool-icon" /></div>
           </div>
         </div>
 
+        <!-- Other Tools -->
         <div class="col-12 col-md-4">
           <h3 class="mb-4 text-info">Other Tools</h3>
-          <div class="tool-icons row justify-content-center align-items-center g-4">
-            <div class="col-6"><img :src="heroku" alt="Heroku" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="git" alt="Git" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="postman" alt="Postman" class="tool-icon img-fluid"></div>
-            <div class="col-6"><img :src="vscode" alt="Visual Studio Code" class="tool-icon img-fluid"></div>
+          <div class="row g-4">
+            <div class="col-6"><img :src="heroku" alt="Heroku" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="git" alt="Git" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="postman" alt="Postman" class="img-fluid tool-icon" /></div>
+            <div class="col-6"><img :src="vscode" alt="Visual Studio Code" class="img-fluid tool-icon" /></div>
           </div>
         </div>
       </div>
