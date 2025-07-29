@@ -5,7 +5,7 @@ import bootstrap from '@/assets/images/bootstrap.png';
 import js from '@/assets/images/javascript.svg';
 
 import mongodb from '@/assets/images/mongodb.svg';
-import express from '@/assets/images/express.png';
+import express from '@/assets/images/expressjs.svg';
 import react from '@/assets/images/react.svg';
 import node from '@/assets/images/node.svg';
 
